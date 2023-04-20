@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "is_signed",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/solidity-intro/structure.sol": "structure"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/solidity-intro/structure.sol": {
+			"keccak256": "0x345f4f91e6f2e59597b164192be71ebd0418272b8065e73000860ee624b78d7c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://85c468e4dc07a0ebf69ab09bc9dbec863dfde91217f1afe806825546cc866dd5",
+				"dweb:/ipfs/QmShJCAS8JJHGgNijCTU9uafVk7jeNw8Ah1JfDZZL9mata"
+			]
+		}
+	},
+	"version": 1
+}
