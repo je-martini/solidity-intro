@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "number",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "input",
+						"type": "uint256"
+					}
+				],
+				"name": "select_number",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/gas/gas&fees.sol": "gas"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/gas/gas&fees.sol": {
+			"keccak256": "0x9536989ecd3b094ec2d4d345a3b8e9d716332cae43b31412a93d1932ef755b7d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://b3d8c5f16dee25e87a90b4ad5fcb7c8bd9c9740ae64df392165c2a351ea88682",
+				"dweb:/ipfs/QmbTG2spdaY2gFsr8g4c6KpytNrmZTpggKAeV1ijjjDzpf"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "word",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/storage/storage.sol": "storages"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/storage/storage.sol": {
+			"keccak256": "0xb0c679559a38c16371c78dcde6db3c959bb8c9af97a3c564a86d082a6bb2a7a5",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://f7b36863a9f3b22faf8df3805062761a5a8ea0a363a41c059a5e50fd9f43238e",
+				"dweb:/ipfs/Qmc8i4sYmQzWbmUePayuzkMWXz6J1Ptz3euJzXmuxriyYA"
+			]
+		}
+	},
+	"version": 1
+}

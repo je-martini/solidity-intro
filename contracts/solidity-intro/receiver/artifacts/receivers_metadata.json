@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					}
+				],
+				"name": "receiver",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/receiver/receiver.sol": "receivers"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/receiver/receiver.sol": {
+			"keccak256": "0x4eae0720bad09e0449cbc8fac7a9d89a8a1a70e1ef3842cc65b1cbf5186432a0",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://88deae24553c15993e1cee40c138187fe5d308c8568f99083b57db9225cddb75",
+				"dweb:/ipfs/QmR3WMM1RM6Ui3Zgu5TpdHDGZM2fz94gMKG4WrBy2tWPUr"
+			]
+		}
+	},
+	"version": 1
+}
