@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "get_result",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "number1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "number2",
+						"type": "uint256"
+					}
+				],
+				"name": "sum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/funtion/funtions.sol": "functions"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/funtion/funtions.sol": {
+			"keccak256": "0x75e5ab0eda49ebcf7b8218a83a9045c03b695c1575992ce1cbfbc0e4170f5119",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bf7cd24c6f8411dabe15b2c661b1639bbb6f271cdadaaebddab54ca9f83245c3",
+				"dweb:/ipfs/QmR8MgEEHF842LVufUN4xkBuDzb8vNtmB4GmVssAJtpwXw"
+			]
+		}
+	},
+	"version": 1
+}

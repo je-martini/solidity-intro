@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "number1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "number2",
+						"type": "uint256"
+					}
+				],
+				"name": "sum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/modifiers/modifiers.sol": "modifiers"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/modifiers/modifiers.sol": {
+			"keccak256": "0x61d9da89d951fc43b57ab49c973f75ca7b499c8f45b86624b17759b284d57a77",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://ff483f9a7b30e90ea2f44a8716674383a084437c19bf7f84f8c10882a1e10a41",
+				"dweb:/ipfs/QmdQgQtgboK4Naxn9crCwAFDrURbhDuGriuFD23ue9LRFs"
+			]
+		}
+	},
+	"version": 1
+}
