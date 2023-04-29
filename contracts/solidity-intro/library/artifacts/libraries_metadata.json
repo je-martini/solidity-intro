@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "numb1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numb2",
+						"type": "uint256"
+					}
+				],
+				"name": "sum_numbers",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/library/libraries.sol": "libraries"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/utils/math/SafeMath.sol": {
+			"keccak256": "0x0f633a0223d9a1dcccfcf38a64c9de0874dfcbfac0c6941ccf074d63a2ce0e1e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://864a40efcffdf408044c332a5aa38ec5618ed7b4eecb8f65faf45671bd6cdc65",
+				"dweb:/ipfs/QmQJquTMtc6fgm5JQzGdsGpA2fqBe3MHWEdt2qzaLySMdN"
+			]
+		},
+		"contracts/library/libraries.sol": {
+			"keccak256": "0x7959d33bf3af067ec8a04a7cbd233e099d9140a50d449fce2d3c7481576a7303",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://1cafac1d360f74aae5ad32625747618166657bbc1b997c4788f17dfa909b2a39",
+				"dweb:/ipfs/QmTj6Mf7RaL8SZLRTZtenY3GX3byB1kfPbH88syAUou8q7"
+			]
+		}
+	},
+	"version": 1
+}
